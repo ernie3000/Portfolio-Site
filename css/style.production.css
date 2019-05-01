@@ -1,0 +1,351 @@
+
+body{
+    font-family: 'Lato', sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  /* Sets the font size to 16px */
+  line-height: 1.6;
+  /* Sets the line-height to 1.6 */
+    background-color: #7fabeeda;
+}
+
+h1 {
+    font-size: 60px;
+    font-weight:400;
+  }
+  
+  h2 {
+    font-size: 24px;
+    font-weight: 700;
+  }
+  
+  h3 {
+    font-size: 18px;
+    font-weight: 700;
+}
+.h1about {
+  text-align: center
+}
+    a {
+        color: #357b70;
+      }
+
+      a:visited {
+        /* visited link */
+        color: #f3081c;;
+      }
+      a:hover, a:focus  {
+        /* No underlining when hovering over a link */
+        text-decoration: none;
+      }
+      
+      a:active {
+        /* selected link */
+        
+      } 
+      .about-box {
+        padding: 10px; /* Adds a 10px inner spacing to all sides*/
+        margin: 20px auto; /* Adds a 10px outer spacing to all sides*/
+        border: 3px solid #000000; /* Attributes describe: thickness, type, color */
+        border-radius:4px;
+    }
+      button  {
+        /* overwrites browser defaults and resets the border */
+        border: none;
+        /* takes the font from the outer container */
+        font-family: inherit;
+        /* styles the button */
+        background-color: #0bad19;
+        color: white;
+        text-decoration: none;
+        /*adds spacing to the button; */
+        padding: 10px;
+        border-radius: 4px;
+        /* width of the border, type, color */
+        border-bottom: 2px solid #000000;
+        /* opacity transition that lasts 0.2s */
+        -webkit-transition: 0.2s opacity;
+        -o-transition: 0.2s opacity;
+        transition: 0.2s opacity;
+    }
+      .button  {
+        /* overwrites browser defaults and resets the border */
+        border: none;
+        /* takes the font from the outer container */
+        font-family: inherit;
+        /* styles the button */
+        background-color: #0bad19;
+        color: white;
+        text-decoration: none;
+        /*adds spacing to the button; */
+        padding: 10px;
+        border-radius: 4px;
+        /* width of the border, type, color */
+        border-bottom: 2px solid #000000;
+        /* opacity transition that lasts 0.2s */
+        -webkit-transition: 0.2s opacity;
+        -o-transition: 0.2s opacity;
+        transition: 0.2s opacity;
+    }  
+    button:hover, button:focus, .button:hover, .button:focus {
+        /* lets the mouse appear as a hand when hovering over the button */
+        cursor: pointer;
+        /* reduces the opacity of the button to 80% */
+        opacity: 0.8;
+    }
+      .button__secondary {
+        background-color: #e0b354;
+        color: #2b2b2b;
+      }
+      * {
+        -webkit-box-sizing: border-box;
+                box-sizing: border-box;
+      }
+      .profile__portrait {
+        float: left;
+        width: 100%;
+        max-width: 400px;
+        border-radius: 50%;
+        margin-right: 40px
+      }
+      .page-footer {
+        clear: both;
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+            -ms-flex-direction: column;
+                flex-direction: column;
+        text-align: center;
+      }
+      .profile {
+        max-width: 800px;
+        margin: 0 auto;
+      }
+      .page-header {
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        width: 100%;
+        padding: 20px;
+      }
+      .page-header__item {
+        -webkit-box-flex: 0;
+            -ms-flex: 0 1 200px;
+                flex: 0 1 200px;
+      }
+      .page-header__item:last-child {
+        -webkit-box-flex: 1;
+            -ms-flex-positive: 1;
+                flex-grow: 1;
+        text-align: right;
+      }
+      .work {
+        text-align: center;
+      }
+       .navigation-list {
+        list-style-type: none;
+      }
+      .navigation-list li {
+        display: inline-block;
+        margin-left: 15px;
+      }
+    
+ /* Grid fallback*/
+ .grid__item {
+  display: inline-block;
+  width: 33%;
+}
+
+/* Styling CSS grid*/
+
+.grid {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 1fr 20px 1fr 20px 1fr;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-gap: 20px;
+}
+
+.grid__item {
+  background-color: LightGrey;
+  padding: 10px;
+
+
+
+  /* Set width to auto*/
+  width: auto;
+}
+
+.grid__item:last-child {
+  -ms-grid-column: 3;
+  grid-column: 3 / 3;
+  -ms-grid-row: 1;
+  -ms-grid-row-span: 2;
+  grid-row: 1 / 3;
+}
+      .grid {
+        display: -ms-grid;
+        display: grid;
+      }
+      .grid__item {
+        background-color: LightGrey;
+      }
+      .grid {
+        display: -ms-grid;
+        display: grid;     
+        -ms-grid-columns: 1fr 20px 1fr 20px 1fr;     
+        grid-template-columns: 1fr 1fr 1fr;
+        grid-gap: 20px;
+      }
+      .grid__item:last-child {
+        -ms-grid-column: 3;
+            grid-column-start: 3;
+        -ms-grid-column-span: 0;
+        grid-column-end: 3;
+        -ms-grid-row: 1;
+            grid-row-start: 1;
+        -ms-grid-row-span: 2;
+        grid-row-end: 3;
+      }
+
+
+        /* ===ABOUT PAGE=== */
+      .about-box {
+      margin:auto;
+      text-align: center;
+      padding-top: 20px;
+     }
+    .cvbutton {
+  text-align: center;
+  padding: 60px;
+     }
+     .illustration{
+      text-align: center;
+    }
+     .skills{
+     text-align: center;
+     margin: auto;
+    }
+    /* Animation */
+    .sun {
+      -webkit-animation-duration: 4s;
+              animation-duration: 4s;
+      -webkit-animation-name: color-change;
+              animation-name: color-change;
+      -webkit-animation-iteration-count: infinite;
+              animation-iteration-count: infinite;
+      -webkit-animation-direction: alternate;
+              animation-direction: alternate;
+      -webkit-animation-timing-function: linear;
+              animation-timing-function: linear;
+    }
+  @-webkit-keyframes color-change {
+    0% {
+      fill:#edc655;
+    }
+    50% {
+      fill: #fcffad;
+    }
+    100% {
+      fill: #f76414;
+    }
+  }
+  @keyframes color-change {
+    0% {
+      fill:#edc655;
+    }
+    50% {
+      fill: #fcffad;
+    }
+    100% {
+      fill: #f76414;
+    }
+  }
+  .cloud-front {
+    -webkit-animation-duration: 30s;
+            animation-duration: 30s;
+    -webkit-animation-name: cloud-move;
+            animation-name: cloud-move;
+    -webkit-animation-iteration-count: infinite;
+            animation-iteration-count: infinite;
+    -webkit-animation-direction: alternate;
+            animation-direction: alternate;
+    -webkit-animation-timing-function: linear;
+            animation-timing-function: linear;
+  }
+
+  @-webkit-keyframes cloud-move {
+    from {
+      -webkit-transform: translate(0, 50px);
+              transform: translate(0, 50px);
+    }
+    to {
+      -webkit-transform: translate(200px, 50px);
+              transform: translate(200px, 50px);
+    }
+  }
+
+  @keyframes cloud-move {
+    from {
+      -webkit-transform: translate(0, 50px);
+              transform: translate(0, 50px);
+    }
+    to {
+      -webkit-transform: translate(200px, 50px);
+              transform: translate(200px, 50px);
+    }
+  }
+  .cloud-back {
+    -webkit-animation: 34s cloud-move-reverse infinite alternate linear;
+            animation: 34s cloud-move-reverse infinite alternate linear;
+  }
+  @-webkit-keyframes cloud-move-reverse {
+    from {
+      -webkit-transform: translate(446px, 48px);
+              transform: translate(446px, 48px);
+    }
+    to {
+      -webkit-transform: translate(100px, 48px);
+              transform: translate(100px, 48px);
+    }
+  }
+  @keyframes cloud-move-reverse {
+    from {
+      -webkit-transform: translate(446px, 48px);
+              transform: translate(446px, 48px);
+    }
+    to {
+      -webkit-transform: translate(100px, 48px);
+              transform: translate(100px, 48px);
+    }
+  }
+   
+   
+     /* responsive design */
+     
+      @media all and (max-width: 500px) {
+        .grid {
+          -ms-grid-columns: 1fr;
+          grid-template-columns: 1fr;
+        }
+      }
+      @media all and (min-width: 500px) and (max-width: 750px){
+        .grid {
+          -ms-grid-columns: 1fr 20px 1fr;
+          grid-template-columns: 1fr 1fr;
+        }
+      }
+      @media all and (max-width: 750px) {
+        .grid {
+          grid-gap: 10px;
+        }
+        .grid__item:last-child {
+          grid-column: auto / auto;
+          grid-row: auto / auto;
+        }
+        h1 {
+          font-size: 22px;
+        }
+      }
